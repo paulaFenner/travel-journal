@@ -3,7 +3,7 @@ import React from 'react';
 export default function Card(props) {
   return (
     <div className="card-wrapper">
-      <img className="destination-img" src={props.item.imageUrl} alt={props.item.title} />
+      <img className="destination-img" src={`../assets/images/${props.item.image}`} alt={props.item.title} />
 
       <div className="destination">
         <div className="destination-header">
